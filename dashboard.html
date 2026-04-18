@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Little Taco Dashboard</title>
+	<link rel="icon" href="img/Little Taco.svg">
+	<link rel="stylesheet" href="CSS/dashboard.css">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+	<header class="dashboard-header">
+		<h1>Little Taco Dashboard</h1>
+		<p class="subtitle">Sample metrics for Taco &amp; Waffle HQ</p>
+	</header>
+
+	<main class="dashboard-grid">
+		<section class="kpi-card">
+			<p class="kpi-label">Waffles served this week</p>
+			<p class="kpi-value" id="kpi-waffles">0</p>
+			<p class="kpi-delta kpi-delta-up">+12% vs last week</p>
+		</section>
+
+		<section class="chart-card">
+			<h2>Daily waffles served</h2>
+			<canvas id="wafflesChart" role="img" aria-label="Bar chart of waffles served per day this week"></canvas>
+		</section>
+	</main>
+
+	<footer class="dashboard-footer">
+		<p>Sample data &mdash; replace with a real source when ready.</p>
+	</footer>
+
+	<script src="js/dashboard.js"></script>
+</body>
+</html>
