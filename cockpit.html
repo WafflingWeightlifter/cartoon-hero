@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vireta Cockpit Variants</title>
+  <style>
+    body { background-color: #060b0e; padding: 40px; color: #cbd5e1; font-family: monospace; }
+    h2 { color: #64748b; font-size: 14px; letter-spacing: 2px; margin-top: 40px; margin-bottom: 12px; border-bottom: 1px solid #1e3545; padding-bottom: 8px; text-transform: uppercase; }
+    .panel-container { background-color: #0d161d; color: #cbd5e1; padding: 24px; border-radius: 8px; width: 100%; max-width: 1200px; box-sizing: border-box; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    .grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .kpi-card { background-color: #12212c; border: 1px solid #1e3545; padding: 16px; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between; height: 160px; box-sizing: border-box; }
+    .meta-footer { font-size: 11px; color: #475569; display: flex; gap: 16px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+
+  <h2>Variant 1: The Executive Horizon Panel (Bullet Thresholds)</h2>
+  <div class="panel-container">
+    <div class="grid-6">
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 20px; font-weight: bold; letter-spacing: 1px;">Validation</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px; letter-spacing: 1px;">VIRETA STAGE</div>
+        </div>
+        <div>
+          <div style="display: flex; gap: 4px; margin-bottom: 12px;">
+            <div style="flex: 1; height: 12px; background-color: #38bdf8;"></div>
+            <div style="flex: 1; height: 12px; background-color: #0284c7; position: relative;"><div style="position: absolute; right: 0; top: 0; width: 3px; height: 100%; background-color: #67e8f9;"></div></div>
+            <div style="flex: 1; height: 12px; background-color: #1e293b;"></div>
+            <div style="flex: 1; height: 12px; background-color: #1e293b;"></div>
+            <div style="flex: 1; height: 12px; background-color: #1e293b;"></div>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">Stage 2 Of 5</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 2px;">Advanced From Ideation</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #ef4444; line-height: 1;">0</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px; letter-spacing: 1px; line-height: 1.2;">VALIDATION<br>INTERVIEWS | OMTM</div>
+        </div>
+        <div>
+          <div style="height: 20px; display: flex; align-items: flex-end; margin-bottom: 8px; border-bottom: 1px dashed #334155;">
+            <svg viewBox="0 0 100 20" style="width: 100%; height: 100%; overflow: visible;"><path d="M0,18 L100,18" fill="none" stroke="#ef4444" stroke-width="2"/><circle cx="100" cy="18" r="3" fill="#ef4444"/></svg>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">0 Of 3 Logged</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 2px;">Cycle Target</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #f97316; line-height: 1;">15%</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px; letter-spacing: 1px;">NETWORK SSI</div>
+        </div>
+        <div>
+          <div style="font-size: 10px; color: #f97316; margin-bottom: 6px;">&rarr; Baseline 15/100</div>
+          <div style="height: 12px; background-color: #1e293b; position: relative; margin-bottom: 8px; border-radius: 2px;">
+            <div style="width: 15%; height: 100%; background-color: #ea580c; border-radius: 2px 0 0 2px;"></div>
+            <div style="position: absolute; left: 40%; top: -2px; width: 2px; height: 16px; background-color: #94a3b8;"></div>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">Weekly Trend</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 2px;">Target TBC</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #38bdf8; line-height: 1;">23</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px; letter-spacing: 1px;">DAYS TO FOUNDERS HUB</div>
+        </div>
+        <div>
+          <div style="height: 12px; background-color: #1e293b; position: relative; margin-bottom: 8px;">
+            <div style="width: 38%; height: 100%; background-color: #0284c7;"></div>
+            <div style="position: absolute; left: 50%; top: -2px; width: 2px; height: 16px; background-color: #e2e8f0;"></div>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">23 of 60-day horizon</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 2px;">Pacing Balanced</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #eab308; line-height: 1;">9</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px; letter-spacing: 1px;">DAYS TO LEADERSHIP</div>
+        </div>
+        <div>
+          <div style="height: 12px; background-color: #1e293b; position: relative; margin-bottom: 8px;">
+            <div style="width: 85%; height: 100%; background-color: #ca8a04;"></div>
+            <div style="position: absolute; left: 85%; top: -2px; width: 2px; height: 16px; background-color: #ef4444;"></div>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">9 of 60-day horizon</div>
+          <div style="font-size: 10px; color: #ef4444; margin-top: 2px;">Urgent Proximity</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #10b981; line-height: 1;">238</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px; letter-spacing: 1px;">OPEN ACTS</div>
+        </div>
+        <div>
+          <div style="font-size: 10px; color: #10b981; margin-bottom: 4px;">&darr; 12 Culled</div>
+          <div style="height: 24px; position: relative; margin-bottom: 4px;">
+            <svg viewBox="0 0 100 30" style="width: 100%; height: 100%; overflow: visible;" preserveAspectRatio="none">
+              <line x1="0" y1="22" x2="100" y2="22" stroke="#059669" stroke-dasharray="2,2" stroke-width="1"/>
+              <path d="M0,5 Q25,8 50,18 T100,25" fill="none" stroke="#10b981" stroke-width="2"/>
+            </svg>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">Target &lt; 200 Goal</div>
+        </div>
+      </div>
+    </div>
+    <div class="meta-footer"><span>Deadline proximity</span> | <span>60-day horizon</span></div>
+  </div>
+
+  <h2>Variant 2: The Target & Velocity Panel (Trends & Micro-Charts)</h2>
+  <div class="panel-container">
+    <div class="grid-6">
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 20px; font-weight: bold;">Validation</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px;">VIRETA STAGE</div>
+        </div>
+        <div>
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+            <span style="font-size: 18px; color: #38bdf8; font-weight: bold;">S2</span>
+            <span style="color: #475569;">&rarr;</span>
+            <span style="font-size: 12px; color: #475569;">S3</span>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">Stage 2 Of 5</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #ef4444; line-height: 1;">0</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px;">VALIDATION INTERVIEWS</div>
+        </div>
+        <div>
+          <div style="display: flex; gap: 6px; margin-bottom: 12px;">
+            <div style="width: 10px; height: 10px; border: 1px dashed #ef4444; border-radius: 50%;"></div>
+            <div style="width: 10px; height: 10px; border: 1px dashed #ef4444; border-radius: 50%;"></div>
+            <div style="width: 10px; height: 10px; border: 1px dashed #ef4444; border-radius: 50%;"></div>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">0 Of 3 Logged</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #f97316; line-height: 1;">15%</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px;">NETWORK SSI</div>
+        </div>
+        <div>
+          <div style="height: 16px; margin-bottom: 8px;">
+            <svg viewBox="0 0 100 20" style="width: 100%; height: 100%;"><path d="M0,15 L100,15" fill="none" stroke="#f97316" stroke-width="2"/></svg>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">&rarr; Baseline 15/100</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #38bdf8; line-height: 1;">23</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px;">DAYS TO FOUNDERS HUB</div>
+        </div>
+        <div>
+          <div style="display: flex; gap: 2px; margin-bottom: 12px;">
+            <div style="flex: 1; height: 6px; background-color: #38bdf8;"></div>
+            <div style="flex: 1; height: 6px; background-color: #38bdf8;"></div>
+            <div style="flex: 1; height: 6px; background-color: #1e293b;"></div>
+            <div style="flex: 1; height: 6px; background-color: #1e293b;"></div>
+            <div style="flex: 1; height: 6px; background-color: #1e293b;"></div>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">23 of 60-day horizon</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #eab308; line-height: 1;">9</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px;">DAYS TO LEADERSHIP</div>
+        </div>
+        <div>
+          <div style="display: flex; gap: 2px; margin-bottom: 12px;">
+            <div style="flex: 1; height: 6px; background-color: #eab308;"></div>
+            <div style="flex: 1; height: 6px; background-color: #eab308;"></div>
+            <div style="flex: 1; height: 6px; background-color: #eab308;"></div>
+            <div style="flex: 1; height: 6px; background-color: #eab308;"></div>
+            <div style="flex: 1; height: 6px; background-color: #ef4444;"></div>
+          </div>
+          <div style="font-size: 11px; color: #eab308;">9 of 60-day horizon</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div>
+          <div style="font-size: 24px; font-weight: bold; color: #10b981; line-height: 1;">238</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 4px;">OPEN ACTS</div>
+        </div>
+        <div>
+          <div style="display: flex; align-items: flex-end; gap: 4px; height: 20px; margin-bottom: 6px;">
+            <div style="width: 12px; height: 20px; background-color: #1e293b;"></div>
+            <div style="width: 12px; height: 16px; background-color: #1e293b;"></div>
+            <div style="width: 12px; height: 12px; background-color: #10b981;"></div>
+            <span style="font-size: 9px; color: #10b981; font-weight: bold; margin-left: 2px;">-12</span>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8;">Target &lt; 200 Goal</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Variant 3: The Context-Dense Matrix Panel (Native Tableau Density)</h2>
+  <div class="panel-container">
+    <div class="grid-3">
+      <div class="kpi-card" style="height: 160px; padding: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+          <div>
+            <div style="font-size: 18px; font-weight: bold;">Validation Matrix</div>
+            <div style="font-size: 10px; color: #64748b; margin-top: 2px;">STAGE & TARGETS</div>
+          </div>
+          <div style="text-align: right;"><span style="font-size: 20px; font-weight: bold; color: #ef4444;">0</span><span style="font-size: 11px; color: #475569;"> / 3</span></div>
+        </div>
+        <div>
+          <div style="display: flex; gap: 4px; margin-bottom: 12px;">
+            <div style="flex: 1; height: 8px; background-color: #38bdf8;"></div>
+            <div style="flex: 1; height: 8px; background-color: #0284c7;"></div>
+            <div style="flex: 1; height: 8px; background-color: #1e293b;"></div>
+            <div style="flex: 1; height: 8px; background-color: #1e293b;"></div>
+            <div style="flex: 1; height: 8px; background-color: #1e293b;"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 11px; color: #94a3b8;"><span>Stage 2: Advanced</span><span style="color: #ef4444;">Pending</span></div>
+        </div>
+      </div>
+      <div class="kpi-card" style="height: 160px; padding: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+          <div>
+            <div style="font-size: 18px; font-weight: bold;">Volume & Engagement</div>
+            <div style="font-size: 10px; color: #64748b; margin-top: 2px;">SSI VS CULL RATES</div>
+          </div>
+          <div style="text-align: right;"><div style="font-size: 20px; font-weight: bold; color: #10b981; line-height: 1;">238</div><span style="font-size: 10px; color: #64748b;">SSI: 15%</span></div>
+        </div>
+        <div>
+          <div style="height: 32px; position: relative; margin-bottom: 8px; border-bottom: 1px solid #1e293b;">
+            <svg viewBox="0 0 100 30" style="width: 100%; height: 100%; overflow: visible;" preserveAspectRatio="none">
+              <path d="M0,25 L100,25" fill="none" stroke="#f97316" stroke-width="1.5"/>
+              <path d="M0,5 Q40,10 100,22" fill="none" stroke="#10b981" stroke-width="2"/>
+            </svg>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 11px; color: #94a3b8;"><span>Net Change: &darr;12</span><span style="color: #10b981;">Target &lt; 200</span></div>
+        </div>
+      </div>
+      <div class="kpi-card" style="height: 160px; padding: 20px;">
+        <div>
+          <div style="font-size: 18px; font-weight: bold;">Dual Horizon Track</div>
+          <div style="font-size: 10px; color: #64748b; margin-top: 2px;">60-DAY COHORT</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div>
+            <div style="display: flex; justify-content: space-between; font-size: 10px; margin-bottom: 3px;"><span style="color: #38bdf8;">Founders Hub</span><span>23 Days Left</span></div>
+            <div style="height: 6px; background-color: #1e293b;"><div style="width: 38%; height: 100%; background-color: #0284c7;"></div></div>
+          </div>
+          <div>
+            <div style="display: flex; justify-content: space-between; font-size: 10px; margin-bottom: 3px;"><span style="color: #eab308;">Leadership</span><span style="color: #ef4444; font-weight: bold;">9 Days Left</span></div>
+            <div style="height: 6px; background-color: #1e293b;"><div style="width: 85%; height: 100%; background-color: #ca8a04;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
